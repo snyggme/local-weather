@@ -1,0 +1,72 @@
+﻿body {
+  margin: 0;
+  font-family: Exo;
+  color: #ad3a4b;
+  font-size: 25px;
+}
+
+.container {
+  width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #efeeea;
+}
+
+.container h1 {
+  margin: 0;
+}
+
+#data {  
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#data h3 {
+  margin: 0;
+}
+
+#data p {
+  margin: 0;
+}
+
+#weather .grid {
+  position: relative;
+  font-size: 50px;
+  float: left;
+  margin-right: 50px;
+  height: 150px;
+}
+
+#temperature {
+  width: 50px;
+}
+
+#temperature, .temp-units {
+  padding-top: 35px;
+}
+
+.temp-units {
+  width: 200px;
+  text-align: center; 
+}
+
+.temp-units span {
+  margin-right: 30px;
+}
+
+#metric, #imperial {
+  position: relative;
+}
+
+#temp-background {
+  position: absolute;
+  left: 10px;
+  width: 70px;
+  height: 60px;
+  border: 1px solid grey;
+  background-color: white;
+  box-shadow: 
+}

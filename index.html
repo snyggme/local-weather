@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+   
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Local Weather</title>	
+
+	<link href="https://fonts.googleapis.com/css?family=Exo|Raleway:300" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>     
+    <div class="container">
+      <h1>Local Weather</h1><hr>
+      <div id="data"></div>
+      <div id="weather">
+        <div class="grid"><img id="weather-img" src=""></div>  
+        <div class="grid" id="temperature"></div>
+        <div class="grid"> 
+          <div class="temp-units">
+            <div id="temp-background"></div>
+            <span id="metric" data-clickable="true">°C</span>
+            <span id="imperial" data-clickable="false">°F</span>
+          </div>
+        </div>
+      </div>     
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
